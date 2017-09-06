@@ -19,4 +19,4 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
 # Install useful packages
 RUN sudo vca-install-package \
-  cpio
+  cpio zip
