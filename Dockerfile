@@ -19,4 +19,5 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
 # Install useful packages
 RUN sudo vca-install-package \
-  cpio dosfstools isc-dhcp-server ovmf python3-pexpect python3-requests squashfs-tools zip
+  cpio dosfstools isc-dhcp-server ovmf python3-pexpect python3-requests squashfs-tools zip python-pip3
+RUN sudo pip3 install paramiko
